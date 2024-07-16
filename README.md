@@ -1,4 +1,4 @@
-# data-cynical
+# Data Cynical
 
 ## APIs
 ```
