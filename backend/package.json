@@ -1,0 +1,35 @@
+{
+  "name": "data-cynical~backend",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "arksouthern",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "mdb-reader": "^2.2.5",
+    "mssql": "^7.2.0",
+    "mysql": "^2.18.1",
+    "openurl": "^1.1.1",
+    "papaparse": "^5.4.1",
+    "pg": "^8.8.0",
+    "postgres": "^3.3.3",
+    "sql.js": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.2",
+    "@types/http-server": "^0.12.1",
+    "@types/mssql": "^8.1.1",
+    "@types/mysql": "^2.15.21",
+    "@types/openurl": "^1.0.0",
+    "@types/papaparse": "^5.3.7",
+    "@types/pg": "^8.6.5",
+    "@types/sql.js": "^1.4.4",
+    "typescript-transpile-only": "^0.0.4"
+  }
+}

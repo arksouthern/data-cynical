@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "strict": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "alwaysStrict": true,
+    "module": "NodeNext",
+    "target": "ES6"
+  },
+}
