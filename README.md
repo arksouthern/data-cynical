@@ -1,6 +1,13 @@
 # Data Cynical
 <img src="https://i.imgur.com/wIP817g.jpeg" />
   
+
+<div align=center>
+  <hr /><br />
+  <h3>Data Cynical</h3>
+  <img height=256 src="https://i.imgur.com/6MKsCMJ.jpeg" />
+</div>  
+  
 ## Download App or Run From Source
 ### Download
 1. Visit releases at `https://github.com/arksouthern/data-cynical/releases/latest`.
