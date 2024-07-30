@@ -3,7 +3,7 @@ import "./helpers/-onstartup.js";
 import { DESTINATION_SETTINGS } from "../../destination.settings.js"
 import { fn } from "./libs/st.js";
 
-export const connect = fn(async props => { 
+export const apiHealthCheckConnect = fn(async props => { 
     return {message: DESTINATION_SETTINGS.version}})
 
 

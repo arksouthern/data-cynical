@@ -3,6 +3,7 @@ import { fastify } from "fastify"
 import cors from '@fastify/cors'
 import OU from "openurl"
 import { autoCleanupReducer, autoUpdateReducer } from "./update"
+import { DESTINATION_SETTINGS } from "../../destination.settings"
 
 start().catch(console.log)
 
@@ -41,5 +42,5 @@ async function start() {
 
     const url = `http://0.0.0.0:${port}`
     console.log(url)
-    OU.open(`http://arksouthern.com/app/data-cynical-designer/?${url}`)
+    OU.open(`${DESTINATION_SETTINGS.runUrl}/?${url}`)
 }

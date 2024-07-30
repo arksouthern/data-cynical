@@ -18,25 +18,28 @@ export const
 //     database: MCast("" as keyof typeof Connect, { type: "string" })
 // }),
 
-DbProps = {Database: {database: {} as "SQLITE"}},
+DbProps = {Database: {database: {} as keyof typeof Connect}},
 
 dbConnect = fn(async props => {
     activeConnection = (await Connect[props.database](props)).queryFunction;
     dbProvider = props.database;
     connectionString = props.connectionString
+    return {}
 }, DbProps.Database, ConnectionString),
 
 dbQuery = fn(async props => 
     activeConnection(props)
 , RawQueryString),
 
-dbIsConnected = fn(async () => ({ dbProvider, connectionString })),
+// @ts-ignore
+dbIsConnected = fn(async () => activeConnection ? ({ dbProvider, connectionString }) : {}),
 
 dbDisconnect = fn(async props => {
     // @ts-ignore
     activeConnection = undefined;
     // @ts-ignore
     dbProvider = undefined;
+    return {}
 }),
 
 dbDownload = fn(async props => ({

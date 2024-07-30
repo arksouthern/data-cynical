@@ -1,3 +1,4 @@
+//@ts-ignore
 import * as APIs from "../../backend/api/v1"
 import { fastify } from "fastify"
 import cors from '@fastify/cors'
