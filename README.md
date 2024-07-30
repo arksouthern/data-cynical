@@ -26,16 +26,19 @@ npm i
 ```sh
 npx tsx index.ts
 ```
+## Feature Overview 
+<img src="https://i.imgur.com/Dwkv9W7.jpeg" />
 
+  
 ## APIs
 ```ts
 dbConnect = (connectionInfo: string) => null
-dbIsConnected = () => boolean
+dbIsConnected = () => DbConnection | false
 dbDisconnect = () => null
 
 dbQuery = (sqlQuery: string) => Table
 
 dbDownload = (sqlQuery: string) => Csv
 
-connect = () => AppVersion
+apiHealthCheckConnect = () => AppVersion
 ```
