@@ -1,6 +1,6 @@
 import "./helpers/-onstartup.js";
 // import { fn } from "@hwyblvd/st";
-import { DESTINATION_SETTINGS } from "../../destination.settings.js"
+import { DESTINATION_SETTINGS } from "../destination.settings.js"
 import { fn } from "./libs/st.js";
 
 export const apiHealthCheckConnect = fn(async props => { 
