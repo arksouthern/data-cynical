@@ -1,5 +1,8 @@
 # Data Cynical
-<img src="https://i.imgur.com/wIP817g.jpeg" />
+| App | Features |
+| --- | -------- |
+| ![image](https://i.imgur.com/wIP817g.jpeg) | &bull; Supporting SQLite, PostgreSQL, MySQL, SQL Server. <br> &bull; Rich: Graphing, CSV, automatic column prefixing. <br> &bull; Define SQL macros, aliases, functions. <br> &bull; The first CTE-oriented SQL editor. |
+| | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
   
 
 <div align=center>
@@ -8,24 +11,29 @@
   <img height=256 src="https://i.imgur.com/6MKsCMJ.jpeg" />
 </div>  
   
-## Download App or Run From Source
-### Download
+## Get Started
+### Option 1. Git Clone &amp; Run
+1. Clone the repo.
+2. Make sure Node JS is installed.
+3. Open a command prompt to the folder, then run:
+```sh
+npm install
+```
+4. Click [Data Cynical](http://arksouthern.com/app/data-cynical)
+5. In the app, click "Launch"
+### Option 2. Download This Repo
+1. Download &amp; extract the repo.
+2. Make sure Node JS is installed.
+3. Open a command prompt to the folder, then run:
+```sh
+npm install
+```
+4. Click [Data Cynical](http://arksouthern.com/app/data-cynical)
+5. In the app, click "Launch"
+### Option 3. Download Executable (2023 Instructions)
 1. Visit releases at `https://github.com/arksouthern/data-cynical/releases/latest`.
 2. See if your platform is supported.
 3. Download, then run the application.
-### Run From Source
-1. Download repo / source as zip file or clone repo.
-2. Extract if downloaded as zip.
-3. Install Node JS if not already installed.
-4. Open the folder `destination`, then `release`.
-5. In the folder, run:
-```sh
-npm i
-```
-6. Finally, to start the app, run:
-```sh
-npx tsx index.ts
-```
 ## Feature Overview 
 <img src="https://i.imgur.com/Dwkv9W7.jpeg" />
 
